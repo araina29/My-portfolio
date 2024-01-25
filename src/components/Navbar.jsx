@@ -45,8 +45,8 @@ const Navbar = () => {
         </Link>
         </li>
         <li>
-          <Link to='Learning' smooth={true} duration={500}>
-            Learning 
+          <Link to='work' smooth={true} duration={500}>
+            Learning
           </Link>
         </li>
         
@@ -94,10 +94,17 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
+          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+            learning
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
+  
       </ul>
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>

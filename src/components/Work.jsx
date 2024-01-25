@@ -53,7 +53,10 @@ const workExperiences = [
 
 const Work = () => {
     return (
-        <div className="bg-[#0a192f] text-gray-300 p-8 flex justify-center items-center min-h-screen">
+        <div name="work" className="work-section">
+ 
+
+        <div className="bg-[#0a192f] text-gray-300 p-8 flex justify-center items-center min-h-screen ">
         <div className="py-16 rounded-md bg-cyan-800 flex flex-col justify-center items-center w-full max-w-4xl">
           
         <div className="mb-8 px-4 w-full text-center">
@@ -67,7 +70,7 @@ const Work = () => {
                 <div key={index} className="bg-[#0a192f] p-6 rounded-lg mb-4">
                 <h3 className="text-xl font-semibold">{experience.role} - {experience.company}</h3>
                 <p>{experience.duration}</p>
-                <ul className="list-disc list-inside space-y-1">
+                <ul className="text-left list-disc list-inside space-y-1">
                     {experience.points.map((point, pointIndex) => (
                     <li key={pointIndex}>{point}</li>
                     ))}
@@ -84,7 +87,7 @@ const Work = () => {
             <div className="flex flex-col items-end space-y-4">
             {certifications.map((cert, index) => (
               <div key={index} className="bg-[#112240] p-6 rounded-lg w-full">
-                <h3 className="text-xl font-semibold">{cert.title}</h3>
+                <h3 className="text-left font-semibold">{cert.title}</h3>
                 <p>{cert.institution} - {cert.year}</p>
               </div>
             ))}
@@ -93,6 +96,7 @@ const Work = () => {
   
           
         </div>
+      </div>
       </div>
     );
   };
