@@ -32,3 +32,11 @@
     )!important;
 }
 
+@layer components {
+  .bg-dark-blue {
+    background-color: #0a192f;
+  }
+
+  /* Add more classes or modify existing ones as needed */
+}
+
