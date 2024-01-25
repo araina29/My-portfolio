@@ -4,6 +4,7 @@ import code1 from '../assets/code3.png';
 import code2 from '../assets/Spotify.png';
 import code3 from '../assets/QR.png';
 import code4 from '../assets/P.png'
+import code5 from '../assets/MR.png';
 
 const Works = () => {
   return (
@@ -165,22 +166,26 @@ const Works = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${code5})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
+                IR remote controlled Robot
               </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
+              <p className='text-center'>Coded an arduino in C++</p>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/araina29/Mechatronics----Albertaloop.git'
+                target="_blank" // Opens the link in a new tab
+                rel="noopener noreferrer" // Prevents security vulnerabilities
+                >
+                
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
