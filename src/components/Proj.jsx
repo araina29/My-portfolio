@@ -148,7 +148,10 @@ const Proj = () => {
               </span>
               <p className='text-center'>Implemented on react/java</p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://youtu.be/HAMNbCJvicI'
+                target="_blank" // Opens the link in a new tab
+                rel="noopener noreferrer" // Prevents security vulnerabilities
+                >
 
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
@@ -176,7 +179,10 @@ const Proj = () => {
               </span>
               <p className='text-center'>Coded an arduino in C++</p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://youtube.com/shorts/wNF0cUexMdw?feature=share'
+                target="_blank" // Opens the link in a new tab
+                rel="noopener noreferrer" // Prevents security vulnerabilities
+                >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
