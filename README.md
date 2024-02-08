@@ -16,14 +16,9 @@ To get started with the development environment, follow these steps:
 4. Run `npm start` to start the development server. This will open the app in your default browser at [http://localhost:3000](http://localhost:3000).
 5. Begin making changes to the code. The page will reload automatically when changes are made.
 
-## Available Scripts
+## You can check the working video of my portfolio on Youtube 
 
-In the project directory, you can run the following scripts:
-
-- `npm start`: Runs the app in the development mode.
-- `npm test`: Launches the test runner in interactive watch mode.
-- `npm run build`: Builds the app for production to the `build` folder.
-- `npm run eject`: This is a one-way operation. Use with caution as it removes the single build dependency and allows full control over configuration files.
+1.[Youtube link my portfolio](https://youtu.be/HAMNbCJvicI)
 
 ## Learn More
 
@@ -31,16 +26,3 @@ You can learn more about Create React App and React in general from the followin
 
 - [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 - [React documentation](https://reactjs.org/)
-
-## Additional Features
-
-This project includes some additional features and configurations:
-
-- Code splitting
-- Analyzing bundle size
-- Making a progressive web app
-- Advanced configuration options
-
-## Deployment
-
-To deploy this project, follow the instructions in the [deployment section](https://facebook.github.io/create-react-app/docs/deployment) of the Create React App documentation.
